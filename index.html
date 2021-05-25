@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loop chating yellow</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <main class="site-content">
+    <div class="main-box">
+      <div class="box-top">
+        <span class="account-setting">Account settings</span>
+        <button class="button-cancel" type="button" aria-label="cancel button">
+          <img src="img/cancel.png" alt="cancel symbol" width="16px" height="16px">
+        </button>
+      </div>
+      <form class="user-from" action="https://echo.htmlacademy.ru" method="POST">
+        <img class="user-img" src="img/avatar.jpg" alt="user image" width="50px" height="50px">
+        <div class="input-group">
+          <label class="input-label">USERNAME
+            <input class="user-input" type="text" placeholder="Enter your username">
+          </label>
+        </div>
+
+         <div class="input-group input-flex-group">
+           <label class="input-label">First Name
+             <input class="user-input" name="name" type="text" placeholder="Enter your first name">
+            </label>
+           <label class="input-label">Last Name
+             <input class="user-input" name="surname" type="text" placeholder="Enter your last name">
+            </label>
+         </div>
+
+         <div class="input-group">
+           <label class="input-label">Email
+             <input class="user-input" name="email" type="email" placeholder="Enter your email">
+           </label>
+         </div>
+
+         <div class="input-group">
+           <label class="input-label">Bio
+            <textarea class="user-input" name="bio" id="" cols="20" rows="7" placeholder="Tell us about your self"></textarea>
+          </label>
+         </div>
+
+
+         <div class="buttons">
+           <button class="button cancel-button" type="reset">cancel</button>
+           <button class="button submit-button" type="submit">save</button>
+         </div>
+        </form>
+    </div>
+
+  </main>
+</body>
+</html>
