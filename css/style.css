@@ -175,6 +175,10 @@ body {
   color: rgb(68, 65, 65);
 }
 
+.user-input:invalid {
+  border: 1px solid red;
+  color: red;
+}
 
 .input-flex-group{
   display: flex;
